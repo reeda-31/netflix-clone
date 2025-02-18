@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix clone 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body >
+    
+    <!-- first page -->
+    <div class="first">  
+    <div class="topbar">
+        <div class="one">
+            <div class="logo">
+                <h1>NETFLIX</h1>
+            </div>
+        </div>
+            <div class="two">
+                <div class="twof">
+            <div class="icon">
+                <i class="fa-solid fa-globe"></i>
+            </div>
+            <div id="select">
+                <select>
+                    <option >English</option>
+                    <option >Hindi</option>
+                </select>
+            </div>
+        </div>
+                <div class="signin">
+                <button class="btn1" onclick="next()">Sign in</button>
+                </div>
+            </div>
+            </div>
+          <div class="mile">
+             <div class="m1">
+                <h1>Unlimited movies, TV shows and more</h1>
+                </div>
+                <div class="m2">
+                    <h2>Watch anywhere. Cancel anytime.</h2>
+                </div>
+                <div class="m3">
+                    <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                </div>
+                <div class="m4">
+                    <div id="email">
+                        <input type="email" placeholder="Email Address">
+                    </div>
+                    <div id="b1">
+                        <button class="btn1" onclick="next()">Get Started ></button>
+                    </div>
+                </div>
+             </div>
+            </div>
+        </div>
+
+        <!-- secon page -->
+      <div class="secon">
+        <div id="info1">
+            <div id="heaing"><h1>Enjoy on your TV</h1></div>
+            <div id="cont"><p>Watch on smart TVs, PlayStation, Xbox, Chromecast, 
+                Apple TV, Blu-ray players and more.</p></div>
+        </div>
+        <div id="pic1">
+            <div class="tv-container2">
+                <div id="tv_container">
+                </div>
+                <div class="tv-video2">
+                  <video
+                    autoplay=""
+                    playsinline=""
+                    muted=""
+                    loop=""
+                    width="300"
+                    height="240"
+                  >
+                    <source
+                      src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v"
+                      type="video/mp4"
+                    />
+                  </video>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <!-- Thir page -->
+      <div class="thir">
+        <div id="pic2"></div>
+        <div id="info2">
+            <div id="heaing2"><h1>Download your shows to watch offline</h1></div>
+            <div id="cont2"><p>Save your favourites easily and always have something to watch.</p></div>
+        </div>
+      </div>
+
+      <!--Fourth page -->
+      <div class="fourth">
+        <div id="info3">
+            <div id="heaing3"><h1>Watch everywhere</h1></div>
+            <div id="cont3"><p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p></div>
+        </div>
+        <div id="pic3">
+        </div>
+      </div>
+
+      <!-- fifth page -->
+      <div class="fifth">
+        <div id="pic4"></div>
+        <div id="info4">
+            <div id="heaing4"><h1>Create profiles for kids</h1></div>
+            <div id="cont4"><p>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p></div>
+        </div>
+      </div>
+
+      <!--sixth page-->
+      <div class="sixth">
+        <div id="info5">
+            <div id="heaing5"><h1>Frequently Asked Questions</h1></div>
+            <div id="ques">
+                <div id="q1">
+                    <div id="p1"><p>What is Netflix?</p></div>
+                    <div class="p21" onclick="rotate1()"><h1>+</h1></div>
+                </div>
+                <div id="q2">
+                    <div id="p1"><p>How much does Netflix cost?</p></div>
+                    <div class="p22" onclick="rotate2()"><h1>+</h1></div>
+                </div>
+                <div id="q3">
+                    <div id="p1"><p>Where can I watch?</p></div>
+                    <div class="p23" onclick="rotate3()"><h1>+</h1></div>
+                </div>
+                <div id="q4">
+                    <div id="p1"><p>How do I cancel?</p></div>
+                    <div class="p24" onclick="rotate4()"><h1>+</h1></div>
+                </div>
+                <div id="q5">
+                    <div id="p1"><p>What can I watch on Netflix?</p></div>
+                    <div class="p25" onclick="rotate5()"><h1>+</h1></div>
+                </div>
+                <div id="q6">
+                    <div id="p1"><p>Is Netflix good for kids?</p></div>
+                    <div class="p26" onclick="rotate6()"><h1 >+</h1></div>
+                </div>
+            </div>
+            <div id="en">
+                <div id="c1"><h2>Ready to watch? Enter your email to create or restart your membership.</h2></div>
+                <div class="m4">
+                    <div id="email">
+                        <input type="email" placeholder="Email Address">
+                    </div>
+                    <div id="b1">
+                        <button class="btn1" onclick="next()">Get Started ></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!--seventh page-->
+      <footer class="footer">
+      <div class="seventh">
+        <div id="contact">
+        <p>Questions? Call <a href="#">000-800-919-1694</a></p>
+       </div>
+        <div class="in1">
+        <div id="ia1" class="ii">
+            <a href="#">FAQ</a>
+            <a href="#">Investor Relations</a>
+            <a href="#">Privacy</a>
+            <a href="#">Speed Test</a>
+        </div>
+        <div id="ia2" class="ii">
+            <a href="#">Help Centre</a>
+            <a href="#">Job</a>
+            <a href="#">Cookie Preferences</a>
+            <a href="#">Legal Notices</a>
+        </div>
+        <div id="ia3" class="ii">
+            <a href="#">Account</a>
+            <a href="#">Ways to watch</a>
+            <a href="#">Corporate Information</a>
+            <a href="#">Only on Netflix</a>
+        </div>
+        <div id="ia4" class="ii">
+            <a href="#">Meia Centre</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Contact Us</a>
+        </div>
+    </div>
+    <div class="twof">
+        <div class="icon">
+            <i class="fa-solid fa-language"></i>
+        </div>
+        <div id="select">
+            <select>
+                <option>English</option>
+                <option>Hindi</option>
+            </select>
+        </div>
+    </div>
+    <div id="enf">
+    <p>Netflix India</p>
+    </div>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
